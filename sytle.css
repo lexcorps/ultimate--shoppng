@@ -1,4 +1,5 @@
-/********** Common CSS Starts **********/  
+
+ /********** Common CSS Starts **********/  
 html, body {
     font-family Roboto, sans-serif, arial;
     font-size: 14px;
@@ -25,108 +26,6 @@ html {
     width:1200px;
     margin:0px auto;
     display:table;
-}
-.buyButton {
-  position: absolute;
-  top: 50%;
-  right: 10%;
-  font-size: 30px;
-  font-weight: 900;
-  color: white;
-  border: 1px solid gray;
-  background-color: black;
-  z-index: 1;
-  cursor: pointer;
-}
-
-.buyButton:hover {
-  background-color: white;
-  color: black;
-
-}
-
-.payment {
-  width: 500px;
-  height: 500px;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 10px 50px;
-  display: none;
-  flex-direction: column;
-  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-}
-
-.payTitle {
-  font-size: 20px;
-  color: lightgray;
-}
-
-label {
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.payInput {
-  padding: 10px;
-  margin: 10px 0px;
-  border: none;
-  border-bottom: 1px solid gray;
-}
-
-.payInput::placeholder {
-  color: rgb(163, 163, 163);
-}
-
-.cardIcons {
-  display: flex;
-}
-
-.cardIcon {
-  margin-right: 10px;
-}
-
-.cardInfo {
-  display: flex;
-  justify-content: space-between;
-}
-
-.sm {
-  width: 30%;
-}
-
-.payButton {
-  position: absolute;
-  height: 40px;
-  bottom: -40;
-  width: 100%;
-  left: 0;
-  -webkit-box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
-  background-color: #369e62;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.close {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  background-color: gray;
-  color: white;
-  top: 10px;
-  right: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  padding: 2px;
 }
 
 .width-100 {
@@ -452,4 +351,196 @@ label {
     text-align: center;
   }
   /**********   Footer-bottom Section CSS Code Ends  **********/
+@media screen and (max-width:800px){
+  html, body {
+    
+    font-size: 5px;
+    font-weight: 280;
+}
+html {
+  -webkit-text-size-adjust:60%;
+  -ms-text-size-adjust:60%;
+  font-size:5px;
+  -webkit-tap-highlight-color:transparent 
+}
+* {
+  
+  
+.container {
+  width:700px;
+  
+  display:block;
+}
+}
+@media screen and (max-width:689px){
+  html, body {
+    
+    font-size: 3px;
+    font-weight: 199;
+}
+html {
+  -webkit-text-size-adjust:40%;
+  -ms-text-size-adjust:40%;
+  font-size:3px;
+  -webkit-tap-highlight-color:transparent 
+}
+* {
+  
+  
+.container {
+  width:600px;
+  
+  display:block;
+}
+}
+@media screen and (max-width:500px){
+  html, body {
+    
+    font-size: 2px;
+    font-weight: 125;
+}
+html {
+  -webkit-text-size-adjust:20%;
+  -ms-text-size-adjust:20%;
+  font-size:2px;
+  -webkit-tap-highlight-color:transparent 
+}
+* {
+  
+  
+.container {
+  width:400px;
+  
+  display:block;
+}
+
+.product-img {
+	width:40px;
+	height:80px;
+}
+.width-25 {
+  width:25%;
+  
+}
+}
+.product-name a {
+	
+	font-size: 9px;
+
+}
+.product-rating {
+	
+	font-size: 5px;
+	padding-top: 3px;
+}
+.product-rating span {
+	font-weight: 600;
+
+	font-size: 7px;
+
+}
+.product-discounted-price {
+	
+	font-size: 9px;
+	letter-spacing: 0.1px;
+	font-weight: 700px;
+	
+}
+.product-original-price {
+
+	
+	font-size:7px;
+	
+}
+.product-discount {
+	
+	font-size: 4px;
+
+}
+.product-price {
+	margin-top:10px;
+}
+.product-section {
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:2px;
+  display: block;
+}
+@media screen and (max-width:410px){
+  html, body {
+    
+    font-size: 4px;
+    font-weight: 120;
+}
+html {
+  -webkit-text-size-adjust:20%;
+  -ms-text-size-adjust:20%;
+  font-size:2px;
+  -webkit-tap-highlight-color:transparent 
+}
+* {
+  
+  
+.container {
+  width:320px;
+  
+  display: inline-block;
+}
+
+.product-img {
+	width:20px;
+	height:50px;
+}
+.width-25 {
+  width:25%;
+  
+}
+}
+.product-name a {
+	
+	font-size: 5px;
+
+}
+.product-rating {
+	
+	font-size: 3px;
+	padding-top: 3px;
+}
+.product-rating span {
+	font-weight: 600;
+
+	font-size: 5px;
+
+}
+.product-discounted-price {
+	
+	font-size: 5px;
+	letter-spacing: 0.1px;
+	font-weight: 700px;
+	
+}
+.product-original-price {
+
+	
+	font-size:4px;
+	
+}
+.product-discount {
+	
+	font-size: 4px;
+
+}
+.product-price {
+	margin-top:2px;
+}
+.product-section {
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:5px;
+  display: block;
+}
+    
+
+    
+    
     
